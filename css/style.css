@@ -19,7 +19,7 @@
     change the --imgcol value 
     to make the filter to your own */
 
-    --imgbg: url(/img/wal.jpg);
+    --imgbg: url('/img/wal.jpg');
 }
 @media only screen and (max-width: 68.75em) {
     :root {
