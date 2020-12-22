@@ -97,7 +97,7 @@ body {
 
 .card {
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
-    border-radius: 25px;
+    border-radius: 20px;
     background-color: var(--sbg);
 }
 .card:hover {
@@ -227,7 +227,7 @@ body {
     background-color: var(--sbg);
     width: 80%;
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
-    border-radius: 25px;
+    border-radius: 20px;
 }
 .qlink__link-1 {
     grid-row: 1;
