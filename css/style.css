@@ -29,6 +29,10 @@
     }
 }
 
+@font-face {
+    font-family: SFDisplay;
+    src: url("fonts/SF-Compact-Text-Medium.otf") format("opentype");
+}
 /* Dark theme  */
 .darktheme {
     --accent: #186efd60;
@@ -41,7 +45,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'SFDisplay';
     font-size: 13.5px;
     transition: 0.2s ease-in-out;
 }
@@ -201,8 +205,8 @@ body {
     grid-row: 3 / span 2;
     grid-column: 1 / span 2;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
     padding: 25px;
 }
@@ -219,8 +223,8 @@ body {
     grid-row: 5 / span 2;
     grid-column: 1 / span 2;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
     padding: 25px;
 }
