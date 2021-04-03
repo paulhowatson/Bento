@@ -405,9 +405,9 @@ body{
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 40%;
+  width: 45%;
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   grid-row: 2 / span 2;
