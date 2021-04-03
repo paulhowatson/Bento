@@ -110,7 +110,7 @@ body {
 }
 
 .fblock {
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 1;
     grid-column: 1 / span 2;
     display: flex;
     flex-direction: column;
@@ -126,7 +126,7 @@ body {
 
 .sblock {
     grid-column: 3 / span 2;
-    grid-row: 1 / span 2;
+    grid-row: 1 / span 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,16 +202,17 @@ body {
     color: var(--fg);
 }
 .qlinkkidstext {
-    grid-row: 3 / span 2;
+    grid-row: 2 / span 2;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
     padding: 25px;
+    padding-top: 5.5rem;
 }
 .qlinkkids {
-    grid-row: 4 / span 2;
+    grid-row: 3 / span 2;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -220,34 +221,36 @@ body {
     padding: 25px;
 }
 .qlinkentertainmenttext {
-    grid-row: 5 / span 2;
+    grid-row: 4 / span 2;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
     padding: 25px;
+    padding-top: 5.5rem;
 }
 .qlink {
-    grid-row: 6 / span 2;
-    grid-column: 1 / span 2;
+    grid-row: 5 / span 2;
+    grid-column: 1 / span 3;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 15px;
     padding: 25px;
 }
 .qlinkuktext {
-    grid-row: 7 / span 2;
+    grid-row: 6 / span 2;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
     padding: 25px;
+    padding-top: 5.5rem;
 }
 .qlinkuk {
-    grid-row: 8 / span 2;
+    grid-row: 7 / span 2;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -362,6 +365,6 @@ body {
 }
 .title {
     color: var(--fg);
-    font-size: 20px;
+    font-size: 3rem;
     
 }
