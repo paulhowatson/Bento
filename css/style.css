@@ -85,7 +85,7 @@ body {
     height: 95vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-gap: 30px;
     padding: 20px;
 }
@@ -208,49 +208,46 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding-left: 25px;
 }
 .qlinkkids {
-    grid-row: 3 / span 2;
+    grid-row: 2 / span 3;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding-left: 25px;
+    padding-left: 80px;
 }
 .qlinkentertainmenttext {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 15px;
+}
+.qlink {
+    grid-row: 3 / span 3;
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 80px;
+}
+.qlinkuktext {
     grid-row: 4 / span 1;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding-left: 25px;
-}
-.qlink {
-    grid-row: 5 / span 2;
-    grid-column: 1 / span 3;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding-left: 25px;
-}
-.qlinkuktext {
-    grid-row: 6 / span 1;
-    grid-column: 1 / span 2;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-gap: 15px;
-    padding-left: 25px;
 }
 .qlinkuk {
-    grid-row: 7 / span 2;
+    grid-row: 4 / span 3;
     grid-column: 1 / span 2;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding-left: 25px;
+    padding-left: 80px;
 }
 
 .qlink__icon {
