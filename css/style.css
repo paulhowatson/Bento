@@ -208,7 +208,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding-left: -20px;
+    margin-left: -20px;
 }
 .qlinkkids {
     grid-row: 2 / span 3;
@@ -225,7 +225,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding-left: -20px;
+    margin-left: -20px;
 }
 .qlink {
     grid-row: 3 / span 3;
@@ -242,7 +242,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding-left: -20px;
+    margin-left: -20px;
 }
 .qlinkuk {
     grid-row: 4 / span 3;
