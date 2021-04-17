@@ -357,6 +357,7 @@ body {
 .title {
     color: var(--fg);
     font-size: 3rem;
+    margin-top: 30px;
     
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
