@@ -208,7 +208,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding: 25px;
+    padding-left: 25px;
 }
 .qlinkkids {
     grid-row: 3 / span 2;
@@ -216,7 +216,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding: 25px;
+    padding-left: 25px;
 }
 .qlinkentertainmenttext {
     grid-row: 4 / span 1;
@@ -225,7 +225,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding: 25px;
+    padding-left: 25px;
 }
 .qlink {
     grid-row: 5 / span 2;
@@ -233,7 +233,7 @@ body {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 25px;
+    padding-left: 25px;
 }
 .qlinkuktext {
     grid-row: 6 / span 1;
@@ -242,7 +242,7 @@ body {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 15px;
-    padding: 25px;
+    padding-left: 25px;
 }
 .qlinkuk {
     grid-row: 7 / span 2;
@@ -250,7 +250,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding: 25px;
+    padding-left: 25px;
 }
 
 .qlink__icon {
