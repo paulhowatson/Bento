@@ -19,7 +19,7 @@
     change the --imgcol value 
     to make the filter to your own */
 
-    --imgbg: url('img/wal3.jpg');
+    --imgbg: url('img/wal5.jpg');
 }
 @media only screen and (max-width: 68.75em) {
     :root {
@@ -54,7 +54,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--bg);
-    background-image: url('img/wal3.jpg') !important;
+    background-image: url('img/wal5.jpg') !important;
     display: flex;
     align-items: center;
     justify-content: center;
